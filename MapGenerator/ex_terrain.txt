@@ -1,0 +1,28 @@
+[terrain_type]
+    id=shallow_water
+    string=W
+[/terrain_type]
+[terrain_type]
+    id=sand
+    string=D
+[/terrain_type]
+[terrain_type]
+    id=forest
+    string=F
+[/terrain_type]
+[terrain_type]
+    id=mountains
+      string=M
+[/terrain_type]
+[terrain_type]
+     id=castle
+    string=C
+[/terrain_type]
+[terrain_type]
+    id=flat
+    string=G
+[/terrain_type]
+[terrain_type]
+    id=unwalkable
+    string=Q
+[/terrain_type]

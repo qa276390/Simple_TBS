@@ -1,0 +1,260 @@
+#Done
+#We have chosen 13 kinds of characters : 
+#Cavalryman
+#Dark Adept
+#Fencer
+#Heavy Infantryman
+#Horseman
+#Mage
+#Bowman
+#Spearman
+#Footpad
+#Thug
+#Sergeant
+#Thief
+#Bowman
+#Poacher
+#---------------------------------
+[unit_type]
+    id=Cavalryman
+    hitpoints=34
+    movement_type=mounted
+    movement=8
+    cost=17
+    [attack]
+        name=sword
+        type=blade
+        range=melee
+        damage=6
+        number=3
+    [/attack]
+[/unit_type]
+#---------------------------------
+[unit_type]
+    id=Dark Adept
+    hitpoints=28
+    movement_type=smallfoot
+    movement=5
+    cost=16
+    [attack]
+        name=chill wave
+        type=cold
+        range=ranged
+        damage=10
+        number=2
+    [/attack]
+    [attack]
+        name=shadow wave
+        type=arcane
+        range=ranged
+        damage=7
+        number=2
+    [/attack]
+[/unit_type]
+#---------------------------------
+[unit_type]
+    id=Fencer
+    hitpoints=28
+    movement_type=elusivefoot
+    movement=6
+    cost=16
+    [attack]
+        name=saber
+        type=blade
+        range=melee
+        damage=4
+        number=4
+    [/attack]
+[/unit_type]
+#---------------------------------
+[unit_type]
+    id=Heavy Infantryman
+    hitpoints=38
+    movement_type=armoredfoot
+    movement=4
+    cost=19
+    [attack]
+       name=mace
+        type=impact
+        range=melee
+        damage=11
+        number=2
+    [/attack]
+[/unit_type]
+#---------------------------------
+[unit_type]
+    id=Horseman
+    hitpoints=38
+    movement_type=mounted
+    movement=8
+    cost=23
+    [attack]
+       name=spear
+        type=pierce
+        range=melee
+        damage=9
+        number=2
+    [/attack]
+[/unit_type]
+#---------------------------------
+[unit_type]
+    id=Mage
+    hitpoints=24
+    movement_type=smallfoot
+    movement=5
+    cost=20
+    [attack]
+        name=staff
+        type=impact
+        range=melee
+        damage=5
+        number=1
+    [/attack]
+    [attack]
+        name=missile
+        type=fire
+        range=ranged
+        damage=7
+        number=3
+[/attack]
+[/unit_type]
+#---------------------------------
+[unit_type]
+    id=Bowman
+    hitpoints=33
+    movement_type=smallfoot
+    movement=5
+    cost=14
+    [attack]
+        name=short sword
+        type=blade
+        range=melee
+        damage=4
+        number=2
+    [/attack]
+    [attack]
+        name=bow
+        type=pierce
+        range=ranged
+        damage=6
+        number=3
+    [/attack]
+[/unit_type]
+#---------------------------------
+[unit_type]
+    id=Spearman
+    hitpoints=36
+    movement_type=smallfoot
+    movement=5
+    cost=14
+   [attack]
+        name=spear      
+        type=pierce
+        range=melee
+        damage=7
+        number=3
+    [/attack]
+    [attack]
+        name=javelin       
+        type=pierce
+        range=ranged
+        damage=6
+        number=1
+    [/attack]
+[/unit_type]
+#---------------------------------
+[unit_type]
+    id=Footpad
+    hitpoints=30
+    movement_type=elusivefoot
+    movement=7
+    cost=14
+    [attack]
+        name=club
+        type=impact
+        range=melee
+        damage=4
+        number=2
+    [/attack]
+    [attack]
+        name=sling
+        type=impact
+        range=ranged
+        damage=4
+        number=2
+    [/attack]
+[/unit_type]
+#---------------------------------
+[unit_type]
+    id=Thug
+    hitpoints=32
+    movement_type=smallfoot
+    movement=5
+    cost=13
+    [attack]
+        name=club
+        type=impact
+        range=melee
+        damage=5
+        number=4
+    [/attack]
+[/unit_type]
+#---------------------------------
+[unit_type]
+    id=Sergeant
+    hitpoints=32
+    movement_type=smallfoot
+    movement=6
+    cost=19
+    [attack]
+        name=sword
+        type=blade
+        range=melee
+        damage=5
+        number=3
+    [/attack]
+    [attack]
+        name=crossbow
+        type=pierce
+        range=ranged
+        damage=4
+        number=3
+    [/attack]
+[/unit_type]
+#---------------------------------
+[unit_type]
+    id=Thief
+    hitpoints=24
+    movement_type=elusivefoot
+    movement=6
+    cost=13
+      [attack]
+        name=dagger
+        type=blade
+        range=melee
+        damage=4
+        number=3
+    [/attack]
+[/unit_type]
+#---------------------------------
+[unit_type]
+    id=Poacher
+    hitpoints=32
+    movement_type=smallfoot
+    movement=5
+    cost=14
+    [attack]
+        name=dagger
+        type=blade
+        range=melee
+        damage=3
+        number=2
+    [/attack]
+    [attack]
+        name=bow
+        type=pierce
+        range=ranged
+        damage=4
+        number=4
+    [/attack]
+[/unit_type]

@@ -1,0 +1,110 @@
+﻿#Done
+#There are four types of movement for humans
+#Ｈorse : mounted
+#Loyalist. Mage. Peasant  : smallfoot
+#Outlaw : elusive foot  
+#Royal warrior : Armored foot
+
+[movetype]
+        name=mounted
+        [movement_costs]
+            shallow_water=4
+            flat=1
+            sand=2
+            forest=3
+            castle=1
+        [/movement_costs]
+        [defense]
+            shallow_water=80
+            flat=60
+            sand=70
+            forest=70
+            castle=60
+        [/defense]
+        [resistance]
+            blade=80
+            pierce=120
+            impact=70
+            fire=100
+            cold=100
+            arcane=80
+        [/resistance]
+[/movetype]
+#-----------------------------------------
+ [movetype]
+        name=smallfoot
+        [movement_costs]
+            shallow_water=3
+            flat=1
+            sand=2
+            forest=2
+            castle=1
+        [/movement_costs]
+        [defense]
+            shallow_water=80
+            flat=60
+            sand=70
+            forest=50   
+            castle=40
+        [/defense]
+        [resistance]
+            blade=100
+            pierce=100
+            impact=100
+            fire=100
+            cold=100
+            arcane=80
+        [/resistance]
+ [/movetype]
+#-----------------------------------------
+ [movetype]
+        name=elusivefoot
+        [movement_costs]
+            shallow_water=2           
+            flat=1
+            sand=2
+            forest=2           
+            castle=1          
+        [/movement_costs]
+        [defense]
+            shallow_water=60          
+            flat=40
+            sand=60
+            forest=30            
+            castle=30        
+        [/defense]
+        [resistance]
+            blade=130
+            pierce=120
+            impact=120
+            fire=100
+            cold=100
+            arcane=80
+        [/resistance]
+ [/movetype]
+#-----------------------------------------
+ [movetype]
+        name=armoredfoot
+        [movement_costs]
+            shallow_water=4            
+            flat=1
+            sand=2
+            forest=2           
+            castle=1           
+        [/movement_costs]
+        [defense]
+            shallow_water=90          
+            flat=70
+            sand=80
+            forest=60
+            castle=50        
+        [/defense]
+        [resistance]
+            blade=50
+            pierce=60
+            impact=90
+            fire=110
+            cold=110
+            arcane=80
+        [/resistance]
+[/movetype]
