@@ -1,6 +1,6 @@
 # Project Title
 
-One Paragraph of project description goes here
+This is a Simple Turn-Based Strategy Game
 
 ## Getting Started
 
@@ -8,33 +8,20 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Under Windows System, all you need to do is clone the Project and type
 
 ```
-Give examples
+java -jar TBS.jar
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+If you want to access the source code, the Eclipse-Project is a Project for Eclipse. You could load a whole project from that.
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+To play this game, you have to run up two same program and create a dirctory in C:\\GDATA, and put file inside.
 
 ### Break down into end to end tests
 
