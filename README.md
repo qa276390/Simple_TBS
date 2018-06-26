@@ -27,7 +27,7 @@ To play this game, you have to run up two same program and move GDATA to C:\\GDA
 
 After you set down your map and soldier it will like this
 
-![image](http://github.com/qa276390/Simple_TBS/image/screenshot.png)
+![image](http://github.com/qa276390/Simple_TBS/raw/master/image/screenshot.png)
 
 ### Game Over
 
