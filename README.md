@@ -1,4 +1,4 @@
-# Project Title
+# Simple TBS
 
 This is a Simple Turn-Based Strategy Game
 
@@ -21,23 +21,17 @@ If you want to access the source code, the Eclipse-Project is a Project for Ecli
 
 ## Running the tests
 
-To play this game, you have to run up two same program and create a dirctory in C:\\GDATA, and put file inside.
+To play this game, you have to run up two same program and move GDATA to C:\\GDATA.
 
-### Break down into end to end tests
+### In the game
 
-Explain what these tests test and why
+After you set down your map and soldier it will like this
 
-```
-Give an example
-```
+![image](http://github.com/qa276390/Simple_TBS/image/screenshot.png)
 
-### And coding style tests
+### Game Over
 
-Explain what these tests test and why
-
-```
-Give an example
-```
+The game will over if one side have no soldier alive or over 30 turns.
 
 ## Deployment
 
@@ -45,31 +39,6 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [The Battle for Wensnoth](http://wesnoth.org) - The original game
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
